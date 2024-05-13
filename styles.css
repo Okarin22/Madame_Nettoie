@@ -1,0 +1,79 @@
+.move-right {
+    margin-left: 250px;
+  }
+.move-left {
+    margin-right: 200px;
+  }
+
+  
+
+.custom-list {
+    list-style-type: none; /* Désactive les puces par défaut */
+    padding-left: 0; /* Supprime le décalage par défaut */
+}
+.custom-list li {
+    padding-left: 30px; /* Ajoute un décalage pour que le texte ne soit pas caché sous l'image */
+    margin-bottom: 5px; /* Espacement entre les éléments de la liste */
+    background-repeat: no-repeat; /* Empêche la répétition de l'image */
+    background-position: left center; /* Positionne l'image sur la gauche du texte */
+  }
+
+
+  /* ******************** CONTACT *********************** */
+
+#contact .conteneur h3
+{
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: bold;
+    width: 410px;
+    padding: 18px ;
+    margin: 30px auto;
+    border-bottom: 4px solid #00aeff;
+}
+
+#contact .conteneur p
+{
+    text-align: center;
+    font-size: 18px;
+    color: #777;
+    margin-bottom: 40px;
+}
+
+
+
+/* **************** FOOTER ******************** */
+
+footer  
+{
+    background-color: rgb(63, 62, 62);
+    text-align: center;
+    height: 130px;
+    padding: 90px 0;
+}
+footer .conteneur h1
+{
+    color: rgb(241, 239, 239);
+    font-size: 60px;
+    padding-bottom: 30px;
+}
+footer .conteneur p
+{
+    color: gray;
+}
+
+/*
+style du card d'avis */
+
+.texte-autour {
+    text-align:;
+}
+
+.pousser-droite{
+    margin-left: 350px;
+}
+
+
+  
