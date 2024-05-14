@@ -1,3 +1,14 @@
+/*CSS barre d'en haut*/
+.navigation-fond-couleur{
+    background-color: #C2B7A6;
+}
+
+/*CSS barre de navigation*/
+.couleur-bouton-nav{
+    background-color: #B02E20;
+}
+
+/*CSS à propos de nos services*/
 .move-right {
     margin-left: 250px;
   }
@@ -5,7 +16,10 @@
     margin-right: 200px;
   }
 
-  
+/*CSS des lignes de séparation*/
+.separer{
+    border-bottom: 4px solid #00aeff;
+}
 
 .custom-list {
     list-style-type: none; /* Désactive les puces par défaut */

@@ -17,38 +17,24 @@
     crossorigin="anonymous"></script>
 
   <!--
-    La premiere section sera une bande de contac
+    La premiere section sera une bande de contact
   -->
   <section>
 
-    <div class="container p-2 " style="height: 60px;">
+    <div class="container p-2 " style="height: 60px; background-color: #423E32;">
 
-      <div class="d-flex p-1">
-
-
+      <div class="d-flex p-1 justify-content-end">
 
 
-        <div class="me-1">
-          <img src="assets/images/facebook.png" width="30" height="30" alt="">
-        </div>
-
-        <div class="me-1">
-          <img src="assets/images/instagram.png" width="30" height="30" alt="">
-        </div>
-
-        <div class="me-auto">
-          <img src="assets/images/whatsapp.png" width="30" height="30" alt="">
-        </div>
-
-        <div class="me-5">
-          <p class="text-bg-light border p-1 rounded-2">Vous avez des questions ? discutons-en<img
-              src="assets/images/message-telephonique.png" width="30" height="30" alt="" class="mx-2">
+        <div class="me-5 my-auto">
+          <p class="text-bg-light border p-1 rounded-2">Appelez nous au +22961254585<img
+              src="assets/images/message-telephonique.png" width="25" height="25" alt="" class="mx-2">
         </div>
         </p>
 
         <div class="me-3">
-          <p class="text-bg-light border p-1 rounded-2">Envoyez moi un email<img src="assets/images/email.png"
-              width="30" height="30" alt="" class="mx-2"></p>
+          <p class="text-bg-light border p-1 rounded-2">Envoyez nous un SMS <img src="assets/images/email.png"
+              width="25" height="25" alt="" class="mx-2"></p>
         </div>
 
 
@@ -59,18 +45,19 @@
     </div>
 
   </section>
+
   <!--
     La barre de navigation
   -->
   <section>
 
-    <div class="container bg-body-tertiary ">
+    <div class="container navigation-fond-couleur  ">
 
       <nav class="navbar navbar-expand-lg ">
 
-        <div class="container ">
+        <div class="container navigation-fond-couleur ">
 
-          <a class="navbar-brand" href="#"><img src="assets/images/Madame-Netttoie-logo1-3.png" alt="Logo" width="100"
+          <a class="navbar-brand" href="#"><img src="assets/images/Madame-Netttoie-logo1-2.png" alt="Logo" width="100"
               height="100" class="d-inline-block align-text-top">
           </a>
 
@@ -81,7 +68,7 @@
 
           <div class="collapse navbar-collapse" id="navbarNav">
 
-            <ul class="navbar-nav ">
+            <ul class="navbar-nav me-auto ">
 
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Accueil</a>
@@ -95,11 +82,12 @@
               <li class="nav-item me-5">
                 <a class="nav-link" href="#">Mes tarifs</a>
               </li>
-              <li class="nav-item ms-5">
-                <a class=" btn btn-warning rounded-4" href="#" role="button">Demander un devis</a>
-              </li>
+              
+                
 
             </ul>
+            <a class=" btn couleur-bouton-nav rounded-4" href="#" role="button"><span style="color: #ffff;"><b>Demander un devis</b></span></a>
+              
           </div>
         </div>
       </nav>
@@ -107,18 +95,20 @@
     </div>
 
   </section>
+
   <!--
   La couverture
--->
+  -->
+  
   <section>
 
-    <div class="container">
+    <div class="container container navigation-fond-couleur ">
 
       <div class="row">
 
         <div class="col">
 
-          <img src="assets/images/Madame-Nettoie-la-femme.png" alt="" width="400" height="400" class="ms-4">
+          <img src="assets/images/Smiling_couple_holding_basket_with_d-removebg.png" alt="" width="100%" height="400" class="ms-4">
 
         </div>
 
@@ -128,7 +118,7 @@
           <div class="row">
 
             <p>
-            <h6>SERVICE DE NETTOYAGE</h6>
+            <h6>SERVICE DE NETTOYAGE  <b><span style="font-family: cursive;"> Madame-Nettoies </span></b> </h6>
             </p>
 
           </div>
@@ -136,8 +126,8 @@
           <div class="row">
 
             <p>
-            <h3 class="titre"><b>Meilleur service de nettoyage pour assainir votre cadre de vie. <br> Ca brille
-                et ça sent bon !</b></h3>
+            <h3 class="titre"><b>Meilleur service de <span style="color: #02158f;">nettoyage</span> pour assainir votre cadre de vie. <br> Ca <span style="color: #02158f;">brille
+                et ça sent bon !</span></b></h3>
             </p>
 
           </div>
@@ -154,7 +144,7 @@
 
             <div class="col-auto mx-auto">
 
-              <a href="" class="btn rounded-4  " role="button" style="background-color: orange;">Commander</a>
+              <a href="" class="btn rounded-4  " role="button" style="background-color: #B02E20"><span style="color: #ffff;"><b>Commander</b></span></a>
 
             </div>
 
@@ -171,20 +161,26 @@
     </div>
 
   </section>
-  <br><br>
+  <br>
+
   <!--
   Présentation des différents services 
 -->
   <section>
-    <div class="container">
+    <div class="container separer">
 
       <div class="row p-3">
+
+
+
+        
         <center>
 
-          <h5>Mes services</h5>
-          <h2>Je vous offre des services de nettoyage complets</h2>
-          <h4>Prenez un peu de repos, je m'occupe de tout !</h4>
-
+          <h3 class="border-bottom border-3 border-info mb-2 d-inline"> Mes services</h3>
+          <div class="shadow-sm p-3 mb-5 mt-2 bg-body-tertiary rounded">            
+            <h2 style="color: #02158f;">Je vous offre des services de nettoyage complets</h2>
+            <h4 style="color: #02158f;">Prenez un peu de repos, je m'occupe de tout !</h4>
+          </div>
         </center>
 
       </div>
@@ -193,34 +189,34 @@
 
         <div class="card mx-auto" style="width: 18rem;">
           <img src="assets/images/Dégraisser la cuisinière en inox.jpeg" class="card-img-top" alt="...">
-          <div class="card-body">
+          <div class="card-body navigation-fond-couleur">
             <h5 class="card-title">Dégraissage électroménager</h5>
             <p class="card-text">Je dégraise et nettoie tous vos appareils élecroniques et ménégers en inox</p>
-            <a href="#" class="btn btn-primary">En savoir plus</a>
+            
           </div>
         </div>
 
         <div class="card mx-auto" style="width: 18rem;">
           <img src="assets/images/nettoyer-naturellement-un-meuble-en-bois.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
+          <div class="card-body ">
             <h5 class="card-title">Nettoyage meubles</h5>
             <p class="card-text">Cela fait un moment que vous avez des meubles en bois? Je vous propose un nettoyage
               complet.</p>
-            <a href="#" class="btn btn-primary">En savoir plus</a>
+            
           </div>
         </div>
 
         <div class="card mx-auto" style="width: 18rem; ">
           <img src="assets/images/poussiere-essuyer-le-sol-nettoyag.jpeg" class="card-img-top" alt="...">
-          <div class="card-body">
+          <div class="card-body navigation-fond-couleur">
             <h5 class="card-title">Nettoyage sol</h5>
             <p class="card-text">Notoyage de vos carreaux, salon, douche champbre</p>
-            <a href="#" class="btn btn-primary">En savoir plus</a>
+            
           </div>
 
         </div>
       </div>
-
+<br>
     </div>
 
 
@@ -246,7 +242,7 @@
 
 
     <section>
-      <div class="container pt-5">
+      <div class="container pt-5 separer ">
         <div class="row pt-3">
           <div class="col move-right">
             <img src="assets/images/madame nettoie_clients_satisfait_petit-2.png" alt="" width="300" height="300">
@@ -275,11 +271,11 @@
       
     </section>
 <br>
-
+<!-- Les témoignages clients-->
     <section>
   
     
-      <div class="container">
+      <div class="container justify-content-center">
 
         <div class="row">
           <div class="col pousser-droite">
@@ -292,9 +288,11 @@
          
          <div class="d-flex ">
            
-           <div class="border p-2 shadow mx-2"><p  class="texte-autour"><img src="assets/images/femme moche.jpg" alt="" width="75" height="100%"style="float: left;" class="rounded-circle me-2">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur obcaecati veniam mollitia porro, hic repellat itaque tenetur quaerat magni ullam voluptatum commodi doloremque architecto minus dolores quo, illum ipsum sint!"</p></div>
-           <div class="border p-2 shadow mx-2"><p class="texte-autour"><img src="assets/images/femme moche.jpg" alt="" width="75" height="100%" style="float: left;" class="rounded-circle me-2"> "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur obcaecati veniam mollitia porro, hic repellat itaque tenetur quaerat magni ullam voluptatum commodi doloremque architecto minus dolores quo, illum ipsum sint!"</p></div>
-           <div class="border p-2 shadow mx-2"><p class="texte-autour"><img src="assets/images/femme moche.jpg" alt="" width="75" height="100%" style="float: left;" class="rounded-circle me-2"> "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur obcaecati veniam mollitia porro, hic repellat itaque tenetur quaerat magni ullam voluptatum commodi doloremque architecto minus dolores quo, illum ipsum sint!"</p></div>
+           <div class="border p-2 shadow mx-2"><p  class="texte-autour"><img src="assets/images/femme moche.jpg" alt="" width="75" height="100%"style="float: left;" class="rounded-circle me-2"><span class="fst-italic">Gisèle </span> ⭐⭐⭐⭐☆ <br>"Nous avons engagé Madame nettoie pour un nettoyage de notre cuisine àprès une fete, et globalement, nous sommes très satisfaits. Elle est très courtoise et affiche un large sourire. Je recommande à 100%."</p></div>
+           <div class="border p-2 shadow mx-2"><p class="texte-autour"><img src="assets/images/homme1.jpg" alt="" width="75" height="100%" style="float: left;" class="rounded-circle me-2"><span class="fst-italic">Fernantino </span>⭐⭐⭐⭐⭐ <br> "Madame-Nettoie a redonné vie à ma maison avant un grand événement familial, et je ne pourrais pas être plus satisfaite du service reçu.
+             Ils ont nettoyé chaque pièce avec une grande attention et ont même donné un coup de neuf à mes tapis et rideaux."</p></div>
+           <div class="border p-2 shadow mx-2"><p class="texte-autour"><img src="assets/images/vieille dame.jpg" alt="" width="75" height="100%" style="float: left;" class="rounded-circle me-2"><span class="fst-italic">Carlos </span>⭐⭐⭐⭐☆ <br> "Cette femme a un don pour le nettoyage ! Nous sommes très satisfaits. Les nettoyeurs sont toujours très courtois et respectueux de notre espace. Elles astique chaque recoin, je recommanderai sans hésiter! 
+            La maison est toujours impeccable"</p></div>
      
          </div>
          </div>
